@@ -2,6 +2,12 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {
+    background-color: #b2bec3;
+    font-family: nunito, sans-serif;
+    font-weight: 400;
+}
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
@@ -14,3 +20,67 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+
+p {
+    font-size: 18px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #d63031;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.vizitka {
+    position: relative;
+    width: 550px;
+    margin: 150px auto 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.portret {
+    position: absolute;
+    right: -75px;
+    top: -75px;
+    width: 150px;
+    border: solid white 3px;
+    border-radius: 50%;
+
+}
+
+.socky {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.socky a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;    
+}
+
+.twitter {
+    background-color: #1da1f2;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.twitter:hover {
+    background-color: #0b7bc1;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.facebook:hover {
+    background-color: #2b406e;
+}
